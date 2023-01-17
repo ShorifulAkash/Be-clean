@@ -1,0 +1,912 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*starts container section*/
+/*starts header section*/
+header .top {
+  background: #5EBED6;
+  padding: 5px 210px;
+}
+
+header .top ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+header .top .left {
+  width: 50%;
+  float: left;
+}
+
+header .top .left ul li {
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+header .top .right {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+header .top .right ul li {
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+header .top .right ul li i {
+  padding: 0px 5px;
+}
+
+header .bottom {
+  padding: 27px 210px;
+}
+
+header .bottom div ul li {
+  display: inline-block;
+}
+
+header .bottom .left {
+  width: 30%;
+  float: left;
+}
+
+header .bottom .right {
+  width: 70%;
+  float: right;
+  text-align: right;
+}
+
+header .bottom .right ul li {
+  padding: 0px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+header .bottom .right ul li:hover {
+  color: #5EBED6;
+}
+
+header .bottom .right ul a {
+  color: #fff;
+  background: #5EBED6;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*ends header section*/
+/*starts banner section*/
+.banner {
+  padding: 0px 210px  0px 610px;
+  background-image: url(../image/02-home-2.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.banner .work-place {
+  float: right;
+  width: 50%;
+  padding: 100px;
+}
+
+.banner .work-place h3 {
+  color: #5d95db;
+  font-size: 24.9833px;
+  line-height: 34.15px;
+  font-weight: 600px;
+  margin-top: -30px;
+}
+
+.banner .work-place h1 {
+  color: #293f5b;
+  font-size: 43.3167px;
+  line-height: 51.6333px;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.banner .work-place p {
+  color: #4f5c6b;
+  font-size: 16.65px;
+  line-height: 23.3176px;
+  font-weight: 400;
+}
+
+.banner .work-place a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  background: #67BFD9;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/*ends banner section*/
+/*starts contact section*/
+.contact {
+  padding: 15px 210px;
+}
+
+.contact .inner-rap {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.contact .inner-rap .time {
+  background: #54A4DC;
+  padding: 30px;
+}
+
+.contact .inner-rap .call {
+  background: #FFBF37;
+  padding: 30px;
+}
+
+.contact .inner-rap .mail {
+  background: #46C6CE;
+  padding: 30px;
+}
+
+.contact .inner-rap i {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: -12px;
+}
+
+.contact .inner-rap h4 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.contact .inner-rap h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: -12px;
+  margin-bottom: -0px;
+}
+
+/*ends contact section*/
+/*starts work section*/
+.work .headline {
+  text-align: center;
+}
+
+.work .headline h6 {
+  color: #a5afb1;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: -21px;
+}
+
+.work .headline h1 {
+  color: #5d95db;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.work .collum {
+  padding: 20px 200px;
+}
+
+.work .collum .raw {
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.work .collum .raw .section .image-one {
+  background-image: url(../image/home1.jpg);
+  /*height: 300px;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.work .collum .raw .section .image-two {
+  background-image: url(../image/home2.jpg);
+  /*height: 300px;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 260px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.work .collum .raw .section .image-three {
+  background-image: url(../image/home3.jpg);
+  /*height: 300px;*/
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  height: 260px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.work .collum .raw .section .box-inner h3 {
+  color: #373a42;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.work .collum .raw .section .box-inner p {
+  color: #696b6f;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/*ends work section*/
+/*starts offer section*/
+.offer {
+  padding: 15px 210px;
+  background-image: url(../image/home033.jpg);
+  height: 1025px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.offer .headline h6 {
+  color: #a5afb1;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  padding-top: 17px;
+  margin-bottom: -17px;
+}
+
+.offer .headline h1 {
+  color: #5d95db;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.offer .contant .project-outer {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.offer .contant .project-outer .inner {
+  position: relative;
+}
+.offer .contant .project-outer .inner .image {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.offer .contant .project-outer .inner .one {
+  background-image: url(../image/depositphoto1.jpg);
+}
+.offer .contant .project-outer .inner .two {
+  background-image: url(../image/depositphoto2.jpg);
+}
+.offer .contant .project-outer .inner .three {
+  background-image: url(../image/depositphoto3.jpg);
+}
+.offer .contant .project-outer .inner .four {
+  background-image: url(../image/depositphoto4.jpg);
+}
+.offer .contant .project-outer .inner .five {
+  background-image: url(../image/depositphoto5.jpg);
+}
+.offer .contant .project-outer .inner .six {
+  background-image: url(../image/depositphoto6.jpg);
+}
+.offer .contant .project-outer .inner .hover {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.offer .contant .project-outer .inner .hover a {
+  margin-top: 32%;
+  display: inline-block;
+  padding: 15px 30px;
+  background: #56B7D7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.offer .contant .project-outer .inner:hover .hover {
+  display: block;
+}
+.offer .contant .project-outer .inner:hover .image {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+.offer .contant .project-outer .project-inner {
+  background: #fff;
+  padding: 5px;
+}
+.offer .contant .project-outer .project-inner h4 a {
+  text-decoration: none;
+  color: #5EBED6;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.offer .contant .project-outer .project-inner p a {
+  text-decoration: none;
+  color: #888A8E;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*ends offer section*/
+/*starts coustomer_counter section*/
+.coustomer_counter {
+  padding: 15px 210px;
+  background-image: url(../image/home034.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 282px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 63px 210px;
+  box-sizing: border-box;
+}
+.coustomer_counter .coustomer_counter_rap {
+  width: 20%;
+  float: left;
+  text-align: center;
+  color: #fff;
+}
+.coustomer_counter .coustomer_counter_rap i {
+  font-size: 40px;
+}
+.coustomer_counter .coustomer_counter_rap h1 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-top: 46px;
+}
+.coustomer_counter .coustomer_counter_rap h1 span {
+  font-size: 28px;
+}
+.coustomer_counter .coustomer_counter_rap p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: -17px;
+  margin-bottom: -2px;
+}
+
+/*ends coustomer_counter section*/
+/*starts testimonials section*/
+.testimonials .headline {
+  text-align: center;
+}
+.testimonials .headline h6 {
+  color: #a5afb1;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 81px;
+}
+.testimonials .headline h1 {
+  color: #5d95db;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-top: -34px;
+}
+.testimonials .employs {
+  padding: 20px 250px;
+}
+.testimonials .employs .cmsmasters_quotes_list .article {
+  width: 50%;
+  float: left;
+  padding: 35px 20px 35px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.testimonials .employs .cmsmasters_quotes_list .article .top .cmsmasters_quote_info_image {
+  width: 20%;
+  float: left;
+}
+.testimonials .employs .cmsmasters_quotes_list .article .top .cmsmasters_quote_info_image img {
+  width: 100%;
+  border-radius: 200px;
+}
+.testimonials .employs .cmsmasters_quotes_list .article .top .cmsmasters_quote_info_wrap {
+  width: 80%;
+  float: left;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.testimonials .employs .cmsmasters_quotes_list .article .top .cmsmasters_quote_info_wrap h3 {
+  color: #373a42;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.testimonials .employs .cmsmasters_quotes_list .article .top .cmsmasters_quote_info_wrap h5 {
+  color: #5EBED6;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: -18px;
+}
+.testimonials .employs .cmsmasters_quotes_list .article .bottom {
+  padding: 15px 35px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.testimonials .employs .cmsmasters_quotes_list .article .bottom p {
+  color: #888a8e;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: italic;
+  /*padding: 15px 20px 0px 0px;
+  box-sizing: border-box;*/
+}
+
+/*ends testimonials section*/
+/*starts calculated_form section*/
+.calculated_form {
+  padding: 15px 210px;
+  background-image: url(../image/calculated_form.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 790px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.calculated_form .cmsmasters_column {
+  margin-top: 35px;
+  width: 50%;
+  background: #fff;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.calculated_form .featured_block_inner label {
+  color: #373a42;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.calculated_form .headline {
+  margin-bottom: 45px;
+}
+.calculated_form .headline h1 {
+  color: #5d95db;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+.calculated_form .fields-cff-dropdown-field {
+  margin: 25px 0px;
+}
+.calculated_form form select {
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0px 8px;
+}
+.calculated_form .fields_cff-checkbox-field {
+  margin: 25px 0px;
+  width: 100%;
+}
+.calculated_form .fields_cff-checkbox-field .two_column {
+  width: 50%;
+  float: left;
+}
+.calculated_form .container-field {
+  margin: 25px 0px;
+}
+.calculated_form .container-field .field.column3 {
+  float: left;
+  width: 33.33%;
+}
+.calculated_form .calculated-field {
+  margin: 25px 0;
+}
+.calculated_form .calculated-field input {
+  width: 100%;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.calculated_form .enter_security {
+  margin-bottom: 25px;
+}
+.calculated_form .security_code {
+  margin-bottom: 35px;
+}
+.calculated_form .pbSubmit {
+  margin-bottom: 5px;
+}
+.calculated_form .pbSubmit a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 17px;
+  background: grey;
+}
+
+/*ends calculated_form section*/
+/*starts discount section*/
+.discount {
+  background: #FFBE32;
+  padding: 47px 210px;
+}
+.discount .headline {
+  width: 75%;
+  float: left;
+}
+.discount .headline h1 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  font-style: italic;
+}
+.discount .button {
+  width: 25%;
+  float: left;
+  text-align: right;
+  margin-top: 25px;
+}
+.discount .button a {
+  text-decoration: none;
+  color: #FFC234;
+  font-size: 18px;
+  line-height: 58px;
+  font-weight: 600;
+  text-align: center;
+  padding: 19px 44px;
+  background: #fff;
+  border-radius: 8px;
+}
+.discount .button a:hover {
+  background: #FFC234;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #Fff;
+}
+
+/*ends discount section*/
+/*starts pricing section*/
+.prices {
+  text-align: center;
+  padding: 32px 200px;
+}
+.prices .headline h6 {
+  color: #a5afb1;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: -17px;
+}
+.prices .headline h1 {
+  color: #5d95db;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.prices .plans .raw {
+  width: 25%;
+  float: left;
+  padding: 0px 12px 12px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.prices .plans .raw h2 {
+  color: #fcfcfc;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  padding: 30px;
+  margin-bottom: -28px;
+}
+.prices .plans .raw span {
+  color: #fcfcfc;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  margin-top: -60px;
+}
+.prices .plans .raw .basic-info {
+  background: #54A4DC;
+  padding: 0px 50px 27px;
+}
+.prices .plans .raw .standard-info {
+  background: #5EBED6;
+  padding: 0px 50px 27px;
+}
+.prices .plans .raw .ultimate-info {
+  background: #46C6CE;
+  padding: 0px 50px 27px;
+}
+.prices .plans .raw .gold-info {
+  background: #FFBF37;
+  padding: 0px 50px 27px;
+}
+.prices .plans .raw .feature_list {
+  padding: 30px 35px;
+  border: 0.5px solid #46C6CE;
+}
+.prices .plans .raw .feature_list ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.prices .plans .raw .feature_list ul li {
+  color: #696b6f;
+  font-size: 13px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.prices .plans .raw .feature_list a {
+  text-decoration: none;
+  padding: 0px 17px;
+  color: #fcfcfc;
+  font-size: 13px;
+  line-height: 38px;
+  font-weight: 600;
+  background: #FFBF37;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+/*ends pricing section*/
+/*starts service section*/
+.service {
+  padding: 50px 210px 50px 800px;
+  background-image: url(../image/booking.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 620px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.service .booking {
+  background: #fff;
+  padding: 15px;
+  padding-left: 20px;
+}
+.service .booking h1 {
+  color: #5d95db;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0px;
+}
+.service .booking .input div {
+  width: 45%;
+  float: left;
+  margin: 5px;
+}
+.service .booking .input label {
+  color: #696b6f;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.service .booking .input input {
+  width: 100%;
+  padding: 8px 0px;
+  border: 0.8px solid #DEEEFE;
+}
+.service .booking div label {
+  color: #696b6f;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.service .booking div textarea {
+  width: 92%;
+  height: 150px;
+  border: 0.8px solid #DEEEFE;
+}
+.service .booking a {
+  color: #fcfcfc;
+  font-size: 13px;
+  line-height: 38px;
+  font-weight: 600;
+  background: #41BDCF;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  display: inline-block;
+}
+.service .booking a:hover {
+  background: #888A8E;
+}
+
+/*ends service section*/
+/*starts clients-slider section*/
+.clients-slider {
+  padding: 66px 210px;
+  background-image: url(../image/clients-slider.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 230px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.clients-slider div {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+/*ends clients-slider section*/
+/*starts information section*/
+.information {
+  padding: 66.5px 210px;
+}
+.information div {
+  width: 25%;
+  float: left;
+  display: block;
+}
+.information div p {
+  color: #696b6f;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-right: 10px;
+  margin-top: 25px;
+}
+.information div h4 {
+  color: #373a42;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  margin-top: -4px;
+  margin-bottom: 40px;
+}
+.information div ul {
+  padding: 0px;
+  margin: 0px;
+}
+.information div ul li {
+  list-style: none;
+  color: #888A8E;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.information div ul li a {
+  text-decoration: none;
+  color: #888A8E;
+}
+
+/*ends information section*/
+/*starts footer section*/
+.footer {
+  padding: 10px 210px;
+  background: #5EBED6;
+}
+.footer div {
+  width: 50%;
+  float: left;
+}
+.footer div span {
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.footer div ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+}
+.footer div ul li {
+  list-style: none;
+  display: inline-block;
+}
+.footer div ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 0px 10px;
+  display: inline-block;
+}
+.footer div ul li a:hover {
+  color: #B7DFE8;
+}
+
+/*ends footer section*/
+/*ends container section*/
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
